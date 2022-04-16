@@ -167,8 +167,7 @@ Code // subject + sleep condition + order
 subject // Subject ID
 sleep // sleep condition character
 sr // sleep restriction (1 = yes, =, no)
-BaselineFirst // order of sleep condition (1 = normal sleep first, 0 = Sleep
-restriction first)
+BaselineFirst // order of sleep condition (1 = normal sleep first, 0 = Sleep restriction first)
 female // gender (1 = female, 0 = male)
 age // Age in years
 night // not relevant
@@ -178,15 +177,12 @@ blockcode // block code of PST (learning phase or test phase)
 blocknum // block number of PST (first block = 4)
 trialcode // trial code of PST (symbol + order + phase)
 trialnum // trial number, originally including all events (responses etc.)
-stimulusitem1 // experiment path to symbol 1, not relevant for analysis, see
-Figur 1 in manuscript.
-stimulusitem2 // experiment path to symbol 2, not relevant for analysis, see
-Figur 1 in manuscript.
+stimulusitem1 // experiment path to symbol 1, not relevant for analysis, see Figur 1 in manuscript.
+stimulusitem2 // experiment path to symbol 2, not relevant for analysis, see Figur 1 in manuscript.
 values.winletter // which symbol to win
 response_key // response key number on keyboard
 values.selectedletter // symbol chosen
-correct // correct during learning phase = positive feedback, during test phase
-= best option
+correct // correct during learning phase = positive feedback, during test phase = best option
 response_time_ms // response time in milliseconds
 expressions.percA_ab // cumulative proportion correct for symbol pair AB
 expressions.percC_CD // cumulative proportion correct for symbol pair CD
@@ -215,3 +211,33 @@ NA
 
 5. Specialized formats or other abbreviations used:
 -
+
+
+// necessary
+Code // subject + sleep condition + order
+subject // Subject ID
+sleep // sleep condition character
+sr // sleep restriction (1 = yes, =, no)
+BaselineFirst // order of sleep condition (1 = normal sleep first, 0 = Sleep restriction first)
+female // gender (1 = female, 0 = male)
+age // Age in years
+blockcode // block code of PST (learning phase or test phase)
+correct // correct during learning phase = positive feedback, during test phase = best option
+response_time_ms // response time in milliseconds
+expressions.percA_ab // cumulative proportion correct for symbol pair AB
+expressions.percC_CD // cumulative proportion correct for symbol pair CD
+expressions.percE_EF // cumulative proportion correct for symbol pair EF
+Time in bed // Time in bed according to actigraph
+Assumed sleep // Assumed sleep according to actigraph
+Actual sleep time // Actual sleep according to actigraph (H:M:S)
+Actual sleep (%) // Actual sleep percent according to actigraph
+Actual wake time // Actual wake according to actigraph (H:M:S)
+Actual wake (%) // Actual wake percent according to actigraph
+Sleep efficiency // Sleep efficiency percent according to actigraph
+Sleep latency // Sleep latency according to actigraph (H:M:S)
+get_up_easy // sleep diary easy to get up (5 = very easy, 1 = very difficult)
+well_rested // well rested after sleep (5 = fully, 1 = not at all)
+KSS // Karolinska sleepiness scale
+SUSS // Subjective stress scale
+kss_rt_ms // Karolinska sleepiness scale, response time in milliseconds
+stress_rt_ms // Subjective stress scale, response time in milliseconds
