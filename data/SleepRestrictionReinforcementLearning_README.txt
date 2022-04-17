@@ -224,9 +224,6 @@ age // Age in years
 blockcode // block code of PST (learning phase or test phase)
 correct // correct during learning phase = positive feedback, during test phase = best option
 response_time_ms // response time in milliseconds
-expressions.percA_ab // cumulative proportion correct for symbol pair AB
-expressions.percC_CD // cumulative proportion correct for symbol pair CD
-expressions.percE_EF // cumulative proportion correct for symbol pair EF
 Time in bed // Time in bed according to actigraph
 Assumed sleep // Assumed sleep according to actigraph
 Actual sleep time // Actual sleep according to actigraph (H:M:S)
